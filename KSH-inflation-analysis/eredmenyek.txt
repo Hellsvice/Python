@@ -1,0 +1,51 @@
+KSH-INFLÁCIÓELEMZÉS | PROGRAMOZÁSI ALAPOK
+=========================================================
+Vizsgált időszak: 2010–2025 (16 év)
+Adatforrás: KSH STADAT, 1.1.1.2; az előző év = 100,0%.
+https://www.ksh.hu/stadat_files/ara/hu/ara0002.html
+Átváltás: éves infláció (%) = KSH árindex − 100.
+
+LEÍRÓ STATISZTIKA – ÉVES ÁRVÁLTOZÁS (%)
+
+Összes fogyasztói ár:
+  Átlag: 4.59%  |  Medián: 3.55%  |  Mintaszórás: 4.85 százalékpont
+  Minimum: -0.2% (2014)  |  Maximum: 17.6% (2023)
+
+Élelmiszerek:
+  Átlag: 6.46%  |  Medián: 4.15%  |  Mintaszórás: 7.90 százalékpont
+  Minimum: -0.4% (2014)  |  Maximum: 26.0% (2022)
+
+Háztartási energia:
+  Átlag: 2.79%  |  Medián: 0.90%  |  Mintaszórás: 9.05 százalékpont
+  Minimum: -11.7% (2014)  |  Maximum: 22.1% (2023)
+
+Szolgáltatások:
+  Átlag: 4.21%  |  Medián: 2.95%  |  Mintaszórás: 3.26 százalékpont
+  Minimum: 1.5% (2016)  |  Maximum: 13.2% (2023)
+
+REGRESSZIÓ – ÉV ÉS ÖSSZESÍTETT ÉVES INFLÁCIÓ
+Becsült infláció (%) = 1.290 + 0.440 × (év − 2010)
+Meredekség: 0.440 százalékpont/év; R²: 0.1872
+A regresszió leíró közelítés, nem alkalmas megbízható előrejelzésre.
+A kiugró 2022–2023-as évek a teljes időszakra illesztett trendet jelentősen befolyásolják.
+
+GAZDASÁGI KÖVETKEZTETÉSEK
+1. 2022-ben az éves infláció 14.5%, 2023-ban 17.6% volt.
+2. 2024-ben 3.7%, 2025-ben 4.4% volt az infláció.
+   A kisebb pozitív infláció az áremelkedés lassulása, nem általános árcsökkenés.
+3. 2021-hez képest 2025-re az összesített árszint a láncolt index alapján 45.8%-kal,
+   az élelmiszerek árszintje 71.7%-kal emelkedett (2022–2025 indexei alapján).
+4. Az élelmiszerárak gyorsabb növekedése az élelmiszerre nagyobb arányban költő
+   háztartásokat erősebben érintheti; az egyéni hatás a fogyasztási kosártól függ.
+
+MÓDSZERTANI KORLÁTOK
+- Éves átlagos árváltozásokat elemzünk, nem havi inflációt.
+- A főcsoportok indexe nem adható egyszerűen össze az összes indexévé:
+  a hivatalos összesített mutató fogyasztási súlyokkal készül.
+- A regresszió összefüggést ír le, okságot nem bizonyít.
+- A múltbeli lineáris trend nem jelzi megbízhatóan a jövőbeli inflációt.
+
+ÁBRÁK
+01_vonaldiagram_inflacio.png – éves változások
+02_pontdiagram_regresszio.png – pontok és lineáris regresszió
+03_kumulalt_arszint_2021_bazis.png – árszintváltozás 2021-hez képest
